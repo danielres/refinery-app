@@ -1,14 +1,14 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.3'
-gem 'thin'
+gem 'rails', '5.2.4.6'
+gem 'thin', '>= 1.2.7'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 #gem 'sqlite3-ruby', :require => 'sqlite3'
 
-gem 'mysql2'
+gem 'mysql2', '>= 0.2.12'
 
 
 # Use unicorn as the web server
@@ -39,7 +39,7 @@ gem 'mysql2'
 java = (RUBY_PLATFORM == 'java')
 
 # Specify the Refinery CMS core:
-gem 'refinerycms',              '~> 0.9.8.9'
+gem 'refinerycms', '~> 0.9.9.1'
 
 # Specify additional Refinery CMS Engines here (all optional):
 gem 'refinerycms-inquiries',    '~> 0.9'
@@ -48,7 +48,7 @@ gem 'refinerycms-inquiries',    '~> 0.9'
 # gem 'refinerycms-theming',    '~> 0.9.8'
 
 # Add i18n support (optional, you can remove this if you really want to).
-gem 'refinerycms-i18n',         '~> 0.9'
+gem 'refinerycms-i18n', '~> 0.9', '>= 0.9.9.7'
 
 # END REFINERY CMS ============================================================
 

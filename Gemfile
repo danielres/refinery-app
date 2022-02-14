@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.3'
+gem 'rails', '5.2.6.2'
 gem 'thin'
 
 # Bundle edge Rails instead:
@@ -39,7 +39,7 @@ gem 'mysql2'
 java = (RUBY_PLATFORM == 'java')
 
 # Specify the Refinery CMS core:
-gem 'refinerycms',              '~> 0.9.8.9'
+gem 'refinerycms', '~> 0.9.9.1'
 
 # Specify additional Refinery CMS Engines here (all optional):
 gem 'refinerycms-inquiries',    '~> 0.9'
@@ -48,7 +48,7 @@ gem 'refinerycms-inquiries',    '~> 0.9'
 # gem 'refinerycms-theming',    '~> 0.9.8'
 
 # Add i18n support (optional, you can remove this if you really want to).
-gem 'refinerycms-i18n',         '~> 0.9'
+gem 'refinerycms-i18n', '~> 0.9', '>= 0.9.9.7'
 
 # END REFINERY CMS ============================================================
 
